@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Digit Counter",
+    "version": "1.0",
+    "description": "Counts the occurrence of each digit in the selected text.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
